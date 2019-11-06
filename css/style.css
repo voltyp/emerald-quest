@@ -1,0 +1,281 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+.emerald-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+.emerald-nav_item {
+  width: 255px;
+  margin-bottom: 20px;
+  padding: 14px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #F7F7F7;
+  background: linear-gradient(180deg, #20B14E 0%, #0D9237 100%);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.emerald-statistics {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 0 32px 0 13px;
+  color: #4F4F4F;
+  background: linear-gradient(180deg, #F1E813 0%, #F2C94C 100%);
+  border-radius: 6px;
+}
+.emerald-statistics_info span {
+  margin-right: 40px;
+  font-size: 16px;
+}
+.emerald-statistics_button {
+  padding: 8px 54px;
+  color: #4F4F4F;
+  background: #F7F7F7;
+  border-radius: 4px;
+}
+.emerald-table {
+  width: 100%;
+  display: table;
+  margin-bottom: 20px;
+  border-spacing: 0 20px;
+}
+.emerald-table-row {
+  display: table-row;
+  font-size: 14px;
+  color: #8B8B8B;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+.emerald-table-row:first-child {
+  box-shadow: initial;
+}
+.emerald-table-row:first-child .emerald-table-cell {
+  font-size: 16px;
+  color: #4F4F4F;
+}
+.emerald-table-cell {
+  display: table-cell;
+  min-height: 100px;
+  background-color: #F7F7F7;
+  padding: 39px 19px;
+}
+.emerald-table-cell:first-child {
+  max-width: 49px;
+  color: #F7F7F7;
+  text-align: center;
+  background: linear-gradient(180deg, #20B14E 0%, #0D9237 100%), #C4C4C4;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding: 39px 12px;
+}
+.emerald-table-cell:last-child {
+  position: relative;
+  padding: 0 15px 0 0;
+  text-align: end;
+  vertical-align: middle;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.emerald-table_head > .emerald-table-cell {
+  padding: 13px 19px;
+  background: initial;
+  border: 1px solid #0D9237;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+}
+.emerald-gift {
+  position: absolute;
+  right: -120px;
+  top: 0;
+  width: 100px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7px;
+  background: #F7F7F7;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+.emerald-gift span {
+  color: #0D9237;
+}
+.emerald-img {
+  position: relative;
+}
+.emerald-img:empty {
+  width: 16px;
+  height: 16px;
+  background: #c4c4c4;
+  border-radius: 50%;
+  float: right;
+}
+.emerald-img-single {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 1.8;
+  text-align: center;
+  vertical-align: middle;
+  content: '';
+  background: linear-gradient(148.74deg, #F1E813 16.04%, #F2C94C 90.56%);
+  border-radius: 50%;
+}
+.emerald-leader > .emerald-table-cell {
+  color: #F7F7F7;
+  background: linear-gradient(180deg, #27AE60 0%, #0D9237 100%);
+}
+.emerald-leader > .emerald-table-cell:first-child {
+  padding: 0;
+  vertical-align: middle;
+  background: linear-gradient(180deg, #F1E813 0%, #F2C94C 100%);
+}
+.emerald-btn-wrap {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.emerald-btn-load {
+  padding: 15px 57px;
+  color: #0D9237;
+  border: 2px solid #0D9237;
+  border-radius: 6px;
+}
+.emerald-btn-load:hover {
+  color: #F7F7F7;
+  background-color: #0D9237;
+  transition: 0.7s;
+}
